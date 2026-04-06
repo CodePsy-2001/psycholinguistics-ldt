@@ -1,46 +1,18 @@
-# Astro Starter Kit: Basics
+# psycholinguistics
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+언어심리학 연구과제를 위한 Astro 프로젝트입니다.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 연구방법
 
-## 🚀 Project Structure
+> 어휘판단 과제 (Lexical Decision Task)
 
-Inside of your Astro project, you'll see the following folders and files:
+참가자는 화면에 제시된 문자열을 보고 그것이 실제 한국어 단어인지, 아니면 비단어(nonword)인지를 가능한 한 빠르고 정확하게 판단합니다.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+예:
+단어: “사과”, “바다”, “연필”
+비단어: “사모”, “구닙”, “런패” 같은 한국어 형태를 흉내 낸 비단어
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+단어면 J, 비단어면 F를 누릅니다.
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+손 배치는 고정하고, 참가자에게 연습 시행을 제공합니다.
+RT(Reactions Time)을 측정해야 합니다.
