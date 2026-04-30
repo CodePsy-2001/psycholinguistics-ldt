@@ -1,4 +1,4 @@
-# psycholinguistics
+# psycholinguistics-ldt
 
 언어심리학 연구과제를 위한 Astro 프로젝트입니다.
 
